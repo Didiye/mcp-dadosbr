@@ -13,6 +13,18 @@ const SSE_ENDPOINT = `${WORKER_URL}/sse`;
 
 console.log(`🔗 Connecting to SSE endpoint: ${SSE_ENDPOINT}`);
 
+function parseEventData(event) {
+  if (!event.data) {
+    return undefined;
+  }
+
+  try {
+    return JSON.parse(event.data);
+  } catch {
+    return event.data;
+  }
+}
+
 // Create EventSource connection
 const eventSource = new EventSource(SSE_ENDPOINT);
 
@@ -27,22 +39,22 @@ eventSource.onerror = (error) => {
 
 // Handle specific event types
 eventSource.addEventListener('connection', (event) => {
-  const data = JSON.parse(event.data);
+  const data = parseEventData(event);
   console.log("🔌 Connection event:", data);
 });
 
 eventSource.addEventListener('message', (event) => {
-  const data = JSON.parse(event.data);
+  const data = parseEventData(event);
   console.log("📨 MCP message:", JSON.stringify(data, null, 2));
 });
 
 eventSource.addEventListener('ping', (event) => {
-  const data = JSON.parse(event.data);
-  console.log("🏓 Ping received:", data.timestamp);
+  const data = parseEventData(event);
+  console.log("🏓 Ping received:", data?.timestamp ?? data);
 });
 
 eventSource.addEventListener('error', (event) => {
-  const data = JSON.parse(event.data);
+  const data = parseEventData(event);
   console.error("🚨 Error event:", data);
 });
 
